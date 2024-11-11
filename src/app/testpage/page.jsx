@@ -15,38 +15,42 @@ const buttons = {
     name: 'Anxiety',
     delaytime: 0.5
   },
-  bipolar: {
-    name: 'Bipolar Disorder',
+  stress: {
+    name: 'Stress',
     delaytime: 0.75
   },
-  schizophrenia: {
-    name: 'Schizophrenia',
+  bipolar: {
+    name: 'Bipolar Disorder',
     delaytime: 1
-  },
-  ocd: {
-    name: 'Obsessive-Compulsive Disorder (OCD)',
-    delaytime: 1.25
   },
   ptsd: {
     name: 'Post-Traumatic Stress Disorder (PTSD)',
+    delaytime: 1.25
+  },
+  ocd: {
+    name: 'Obsessive-Compulsive Disorder (OCD)',
     delaytime: 1.5
   },
   adhd: {
     name: 'Attention-Deficit/Hyperactivity Disorder (ADHD)',
     delaytime: 1.75
   },
-  autism: {
-    name: 'Autism Spectrum Disorder (ASD)',
-    delaytime: 2
-  },
-  eating_disorders: {
-    name: 'Eating Disorders (Anorexia, Bulimia)',
-    delaytime: 2.25
-  },
-  dementia: {
-    name: 'Dementia',
-    delaytime: 2.5
-  },
+  // autism: {
+  //   name: 'Autism Spectrum Disorder (ASD)',
+  //   delaytime: 2
+  // },
+  // eating_disorders: {
+  //   name: 'Eating Disorders (Anorexia, Bulimia)',
+  //   delaytime: 2.25
+  // },
+  // dementia: {
+  //   name: 'Dementia',
+  //   delaytime: 2.5
+  // },
+  // schizophrenia: {
+  //   name: 'Schizophrenia',
+  //   delaytime: 1
+  // },
 };
 
 const Test = () => {
